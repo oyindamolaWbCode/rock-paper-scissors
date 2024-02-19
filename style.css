@@ -47,12 +47,30 @@ h3{
     margin-bottom: 10px;
 }
 
+.game-decision{
+    margin-top: 20px;
+}
+
+.triangle{
+    justify-content: center;
+    display: flex;
+    margin: 100px auto;
+}
+
 .paper{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border: 10px solid #576FDE;
     background-color: white;
+    position: absolute;
+    top: 240px;
+    right: 850px;
+}
+
+.paper img{
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .rock{
@@ -61,6 +79,14 @@ h3{
     border-radius: 50%;
     border: 10px solid #DB3E5C;
     background-color: white;
+    position: absolute;
+    top: 450px;
+    right: 700px;
+}
+
+.rock img{
+    margin-top: 18px;
+    margin-left: 15px;
 }
 
 .scissors{
@@ -69,4 +95,27 @@ h3{
     border-radius: 50%;
     border: 10px solid #ECA724;
     background-color: white;
+    position: absolute;
+    top: 240px;
+    /* left:-20px; */
+    right: 580px;
+}
+
+.scissors img{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.rules{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+#rules{
+    padding: 8px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
 }
